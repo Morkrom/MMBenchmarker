@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/mmork/Documents/DSC/iOS/benchmarking/MMBenchMarker/Example/build/Debug-iphonesimulator/MMBenchMarker.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MMBenchMarker-Swift.h",
+          'external-contents': "/Users/mmork/Documents/DSC/iOS/benchmarking/MMBenchMarker/Example/build/Debug-iphonesimulator/MMBenchMarker.framework/Headers/MMBenchMarker-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMBenchMarker-umbrella.h",
+          'external-contents': "/Users/mmork/Documents/DSC/iOS/benchmarking/MMBenchMarker/Example/Pods/Target Support Files/MMBenchMarker/MMBenchMarker-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mmork/Documents/DSC/iOS/benchmarking/MMBenchMarker/Example/build/Debug-iphonesimulator/MMBenchMarker.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mmork/Documents/DSC/iOS/benchmarking/MMBenchMarker/Example/build/Pods.build/Debug-iphonesimulator/MMBenchMarker.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

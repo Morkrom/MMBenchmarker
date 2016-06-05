@@ -1,0 +1,14 @@
+PODS:
+  - MMBenchMarker (0.1.0)
+
+DEPENDENCIES:
+  - MMBenchMarker (from `../`)
+
+EXTERNAL SOURCES:
+  MMBenchMarker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMBenchMarker: 5419ce89effd311f8538d8ed273370d69607e9f6
+
+COCOAPODS: 0.39.0

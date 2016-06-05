@@ -1,0 +1,1 @@
+ const unsigned char MMBenchMarkerVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:MMBenchMarker  PROJECT:Pods-1" "\n"; const double MMBenchMarkerVersionNumber __attribute__ ((used)) = (double)1.;

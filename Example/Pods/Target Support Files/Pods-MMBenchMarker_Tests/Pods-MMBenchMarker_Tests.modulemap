@@ -1,0 +1,6 @@
+framework module Pods_MMBenchMarker_Tests {
+  umbrella header "Pods-MMBenchMarker_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

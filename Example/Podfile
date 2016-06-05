@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MMBenchMarker_Tests' do
+  pod 'MMBenchMarker', :path => '../'
+  
+  
+end
