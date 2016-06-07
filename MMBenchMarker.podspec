@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MMBenchMarker'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MMBenchMarker.'
+  s.summary          = 'Benchmarking distilled'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/MMBenchMarker'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  This is another simple benchmarker. It records samples in ms converted from mach_time for a given key.
+  After samples have been accumulated, It logs the difference of average recording time between two keys.
+
+  DESC
+
+  s.homepage         = 'https://github.com/Morkrom/MMBenchMarker'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Michael Mork' => 'morkrom@protonmail.ch' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/MMBenchMarker.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/Morkrom/MMBenchMarker.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'MMBenchMarker/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MMBenchMarker' => ['MMBenchMarker/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
